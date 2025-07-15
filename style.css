@@ -3,6 +3,7 @@ body {
     font-family: Verdana;
     font-size: 1.5rem;
     overflow-y: scroll; /* always show scroll bar */
+    min-width: 720px;
 }
 li {
     margin-bottom: 20px;
