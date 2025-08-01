@@ -32,6 +32,17 @@ iframe {
     }
 }
 
+span.refresh-icon {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #808080;
+}
+
+span.refresh-icon:hover {
+    color: #333333;
+}
+
 /* collapsible menu - derived from this example - https://github.com/treehouse/ham-menu/blob/main/app.css */
 
 nav {

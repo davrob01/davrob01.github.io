@@ -9,3 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+function refreshVideoFrame(frameID){
+    var iframeElement = document.getElementById(frameID);
+    if(iframeElement) {
+        iframeElement.src = iframeElement.src; // causes a reload
+    }
+}
