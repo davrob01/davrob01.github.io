@@ -7,6 +7,22 @@
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		/* Hide the default features for number types in chrome and firefox (the increment arrows) */
+		/* Chrome, Safari, Edge, Opera */
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+
+		/* Firefox */
+		input[type=number] {
+			appearance: textfield;
+			-moz-appearance: textfield;
+		}
+	</style>
 </head>
 <body>
     <!-- Header -->
@@ -37,7 +53,7 @@
 							<div id="divNum2" style="min-height: 24px;"></div>
 							<hr/>
 							<form id="frmMath">
-								<input id="txtAnswer" name="answer" type="text" value="" style="width: 80px; text-align: center; caret-color: transparent;" />
+								<input id="txtAnswer" name="answer" type="number" value="" style="width: 80px; text-align: center; caret-color: transparent;" />
 							</form>
 							<br/>
 							<br/>
