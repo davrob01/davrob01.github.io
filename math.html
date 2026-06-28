@@ -22,6 +22,17 @@
 			appearance: textfield;
 			-moz-appearance: textfield;
 		}
+
+		/* Set a custom color for the border and focus outline */
+		input[type="number"] {
+			border: 1px solid rgb(108, 117, 125);
+		}
+
+		input[type="number"]:focus-visible {
+			outline-style: solid;
+			outline-width: 1px;
+			outline-color: rgb(108, 117, 125);
+		}
 	</style>
 </head>
 <body>
